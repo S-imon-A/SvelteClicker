@@ -45,7 +45,7 @@
             <ShopItem
                 buyTrigger={upgradeBuyTrigger}
                 itemObject={item}
-                currencyImage={"src/lib/assets/images/leaves/0.png"}
+                currencyImage={"images/leaves/0.png"}
                 name={item.upgradeData.name}
                 image={item.upgradeData.image}
                 level={abbrNumber(item.data.count)}
@@ -59,8 +59,8 @@
     </div>
 
     <div id="shop-categories">
-        <button onclick={() => {switchCategory(0)}} style="opacity: {currentCategory === 0 ? "1":"0.6"}"><img src="/src/lib/assets/images/icons/shop.png" alt=""></button>
-        <button onclick={() => {switchCategory(1)}} style="opacity: {currentCategory === 1 ? "1":"0.6"}"><img src="/src/lib/assets/images/leaves/0.png" alt=""></button>
+        <button onclick={() => {switchCategory(0)}} style="opacity: {currentCategory === 0 ? "1":"0.6"}"><img src="/images/icons/shop.png" alt=""></button>
+        <button onclick={() => {switchCategory(1)}} style="opacity: {currentCategory === 1 ? "1":"0.6"}"><img src="/images/leaves/0.png" alt=""></button>
     </div>
 </div>
 

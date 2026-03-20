@@ -8,7 +8,7 @@
 
 <div class="ach-holder">
     <div class="ach-img-holder">
-        <img src="/src/lib/assets/images/icons/{ach.image}" alt="">
+        <img src="/images/icons/{ach.image}" alt="">
     </div>
     <div class="ach-content-holder">
         <h1>{ach.name}</h1>

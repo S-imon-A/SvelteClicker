@@ -43,7 +43,7 @@
     </div>
 
     <div id="prestige-token-info-holder">
-        <CurrencyHolder image="src/lib/assets/images/icons/token.png" currency={prestigeTokensAbbr} textColor="#C645AF" nodesign={false} margin={8} />
+        <CurrencyHolder image="images/icons/token.png" currency={prestigeTokensAbbr} textColor="#C645AF" nodesign={false} margin={8} />
     </div>
 {/if}
 
@@ -52,7 +52,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        background-image: url("src/lib/assets/images/background/background.png");
+        background-image: url("images/background/background.png");
         background-size: 100% 100%;
         width: 100%;
         height: 100%;

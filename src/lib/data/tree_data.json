@@ -2,11 +2,11 @@
     "trees": [
         {
             "id": 0,
-            "image": "src/lib/assets/images/trees/0.png",
+            "image": "images/trees/0.png",
             "health": 10,
             "price": 0,
             "leafs": {
-                "image": "src/lib/assets/images/leaves/0.png",
+                "image": "images/leaves/0.png",
                 "cost": 1,
                 "size_range": [1, 1.1],
                 "amount": 3
@@ -15,11 +15,11 @@
         },
         {
             "id": 1,
-            "image": "src/lib/assets/images/trees/1.png",
+            "image": "images/trees/1.png",
             "health": 100,
             "price": 500,
             "leafs": {
-                "image": "src/lib/assets/images/leaves/1.png",
+                "image": "images/leaves/1.png",
                 "cost": 11,
                 "size_range": [1, 1.15],
                 "amount": 3
@@ -28,11 +28,11 @@
         },
         {
             "id": 2,
-            "image": "src/lib/assets/images/trees/2.png",
+            "image": "images/trees/2.png",
             "health": 1000,
             "price": 7500,
             "leafs": {
-                "image": "src/lib/assets/images/leaves/2.png",
+                "image": "images/leaves/2.png",
                 "cost": 120,
                 "size_range": [1, 1.2],
                 "amount": 3
@@ -41,11 +41,11 @@
         },
         {
             "id": 3,
-            "image": "src/lib/assets/images/trees/3.png",
+            "image": "images/trees/3.png",
             "health": 15000,
             "price": 75000,
             "leafs": {
-                "image": "src/lib/assets/images/leaves/3.png",
+                "image": "images/leaves/3.png",
                 "cost": 2300,
                 "size_range": [1, 1.25],
                 "amount": 3
@@ -54,11 +54,11 @@
         },
         {
             "id": 4,
-            "image": "src/lib/assets/images/trees/4.png",
+            "image": "images/trees/4.png",
             "health": 135000,
             "price": 625000,
             "leafs": {
-                "image": "src/lib/assets/images/leaves/4.png",
+                "image": "images/leaves/4.png",
                 "cost": 25000,
                 "size_range": [1, 1.3],
                 "amount": 3
@@ -67,11 +67,11 @@
         },
         {
             "id": 5,
-            "image": "src/lib/assets/images/trees/5.png",
+            "image": "images/trees/5.png",
             "health": 1500000,
             "price": 120000000,
             "leafs": {
-                "image": "src/lib/assets/images/leaves/5.png",
+                "image": "images/leaves/5.png",
                 "cost": 500000,
                 "size_range": [1, 1.35],
                 "amount": 3
@@ -80,11 +80,11 @@
         },
         {
             "id": 6,
-            "image": "src/lib/assets/images/trees/6.png",
+            "image": "images/trees/6.png",
             "health": 50000000,
             "price": 7250000000,
             "leafs": {
-                "image": "src/lib/assets/images/leaves/6.png",
+                "image": "images/leaves/6.png",
                 "cost": 20000000,
                 "size_range": [1, 1.4],
                 "amount": 3
@@ -93,11 +93,11 @@
         },
         {
             "id": 7,
-            "image": "src/lib/assets/images/trees/7.png",
+            "image": "images/trees/7.png",
             "health": 2500000000,
             "price": 420000000000,
             "leafs": {
-                "image": "src/lib/assets/images/leaves/7.png",
+                "image": "images/leaves/7.png",
                 "cost": 650000000,
                 "size_range": [1.1, 1.5],
                 "amount": 3
@@ -106,11 +106,11 @@
         },
         {
             "id": 8,
-            "image": "src/lib/assets/images/trees/8.png",
+            "image": "images/trees/8.png",
             "health": 9999999999999,
             "price": 250000000000000,
             "leafs": {
-                "image": "src/lib/assets/images/leaves/8.png",
+                "image": "images/leaves/8.png",
                 "cost": 4500000000,
                 "size_range": [1.2, 1.6],
                 "amount": 4
@@ -119,11 +119,11 @@
         },
         {
             "id": 9,
-            "image": "src/lib/assets/images/trees/9.png",
+            "image": "images/trees/9.png",
             "health": 999999999999999999999999999,
             "price": 5000000000000000000000,
             "leafs": {
-                "image": "src/lib/assets/images/leaves/9.png",
+                "image": "images/leaves/9.png",
                 "cost": 4500000000000,
                 "size_range": [1.3, 1.7],
                 "amount": 4

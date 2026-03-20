@@ -28,12 +28,12 @@
         <p class="prestige-token-convert-info">Unclaimed tokens — Prestige to collect.</p>
 
         <div id="prestige-token-holder">
-            <CurrencyHolder image="src/lib/assets/images/icons/token.png" currency={prestigeTokensAbbr} textColor="#C645AF" nodesign={true} margin={8} />
+            <CurrencyHolder image="images/icons/token.png" currency={prestigeTokensAbbr} textColor="#C645AF" nodesign={true} margin={8} />
         </div>
 
         <div id="prestige-info-screen">
             <h1>Find an acorn to prestige</h1>
-            <img style="filter: brightness({canPrestige ? "1":"0"})" src="/src/lib/assets/images/items/acorn2.png" alt="">
+            <img style="filter: brightness({canPrestige ? "1":"0"})" src="/images/items/acorn2.png" alt="">
             <p>{getItemDropChanceString("Acorn")} acorn drop chance</p>
         </div>
 
@@ -41,7 +41,7 @@
             <button onclick={prestige} style="opacity: {canPrestige ? "1":"0.5"}">
                 Prestige
                 {#if !canPrestige}
-                    <img class="button-lock" src="/src/lib/assets/images/icons/lock.png" alt="">
+                    <img class="button-lock" src="/images/icons/lock.png" alt="">
                 {/if}
             </button>
             <button onclick={openPrestigeMenuHandler}>Open prestige upgrades</button>

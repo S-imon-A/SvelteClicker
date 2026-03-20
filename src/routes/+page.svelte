@@ -175,16 +175,16 @@
     setup()
 </script>
 
-<img id="background" src="src/lib/assets/images/background/background.png" alt="">
+<img id="background" src="/images/background/background.png" alt="">
 
 <Tree getMainCurrencyRect={getMainCurrencyRect} checkPrestigeLeavesReset={checkLeavesReset} />
 
 <div id="main-currency" bind:this={mainCurrencyHolder}>
-    <CurrencyHolder image="src/lib/assets/images/leaves/0.png" currency={mainCurrencyAbbr} textColor="#EA4F36" nodesign={false} margin={0} />
+    <CurrencyHolder image="images/leaves/0.png" currency={mainCurrencyAbbr} textColor="#EA4F36" nodesign={false} margin={0} />
 </div>
 
 <div id="time-holder">
-    <CurrencyHolder image="src/lib/assets/images/icons/clock.png" currency={playtimeAbbr} textColor="#4C67FF" nodesign={false} margin={10} />
+    <CurrencyHolder image="images/icons/clock.png" currency={playtimeAbbr} textColor="#4C67FF" nodesign={false} margin={10} />
 </div>
 
 <Levelbar level={displayedLevel} progress={progress} reqCur={xp} reqMax={neededXP} />

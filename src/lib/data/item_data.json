@@ -2,7 +2,7 @@
     "items": [
         {
             "name": "Acorn",
-            "image": "src/lib/assets/images/items/acorn2.png",
+            "image": "images/items/acorn2.png",
             "size": 2,
             "chance": 1000000,
             "type": "prestige",
@@ -10,7 +10,7 @@
         },
         {
             "name": "Clover",
-            "image": "src/lib/assets/images/items/clover2.png",
+            "image": "images/items/clover2.png",
             "size": 1.5,
             "chance": 100000,
             "type": "collectible",
@@ -18,7 +18,7 @@
         },
         {
             "name": "Apple",
-            "image": "src/lib/assets/images/items/apple2.png",
+            "image": "images/items/apple2.png",
             "size": 1.5,
             "chance": 100000,
             "type": "collectible",
@@ -26,7 +26,7 @@
         },
         {
             "name": "Branch",
-            "image": "src/lib/assets/images/items/branch.png",
+            "image": "images/items/branch.png",
             "size": 1.5,
             "chance": 100000,
             "type": "collectible",
@@ -34,7 +34,7 @@
         },
         {
             "name": "Sapphire",
-            "image": "src/lib/assets/images/items/sapphire.png",
+            "image": "images/items/sapphire.png",
             "size": 1.5,
             "chance": 50000,
             "type": "collectible",
@@ -42,7 +42,7 @@
         },
         {
             "name": "Emerald",
-            "image": "src/lib/assets/images/items/emerald.png",
+            "image": "images/items/emerald.png",
             "size": 1.5,
             "chance": 80000,
             "type": "collectible",
@@ -50,7 +50,7 @@
         },
         {
             "name": "Diamond",
-            "image": "src/lib/assets/images/items/diamond.png",
+            "image": "images/items/diamond.png",
             "size": 1.5,
             "chance": 50000,
             "type": "collectible",
@@ -58,7 +58,7 @@
         },
         {
             "name": "Ruby",
-            "image": "src/lib/assets/images/items/ruby.png",
+            "image": "images/items/ruby.png",
             "size": 1.5,
             "chance": 50000,
             "type": "collectible",
@@ -66,7 +66,7 @@
         },
         {
             "name": "Amethyst",
-            "image": "src/lib/assets/images/items/amethyst.png",
+            "image": "images/items/amethyst.png",
             "size": 1.5,
             "chance": 60000,
             "type": "collectible",
@@ -74,7 +74,7 @@
         },
         {
             "name": "Topaz",
-            "image": "src/lib/assets/images/items/topaz.png",
+            "image": "images/items/topaz.png",
             "size": 1.5,
             "chance": 20000,
             "type": "collectible",
