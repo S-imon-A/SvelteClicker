@@ -476,20 +476,20 @@
 
 <div id="main-container" bind:this={mainContainer}>
     <button bind:this={treeElement} id="tree-button" onclick={activeClick} style="filter: grayscale({treeOwned ? "0":"1"}); opacity: {treeOwned ? "1":"0.25"}">
-        <img id="tree" src="{treeImage}" alt="">
+        <img id="tree" src="/{treeImage}" alt="">
     </button>
 
     <div bind:this={healthBarElement} id="health-holder">
         <div id="health-bar" style="width: {healthBarPercentage}%"></div>
         <p>{healthBarText}</p>
-        <img src="src/lib/assets/images/icons/axe.png" alt="">
+        <img src="/src/lib/assets/images/icons/axe.png" alt="">
     </div>
 
-    <button onclick={moveRight} id="move-right" style="opacity: {rightMoveActive ? "1":"0.2"}"><img src="src/lib/assets/images/icons/arrow.png" alt=""></button>
-    <button onclick={moveLeft} id="move-left" style="opacity: {leftMoveActive ? "1":"0.2"}"><img style="transform: scaleX(-1);" src="src/lib/assets/images/icons/arrow.png" alt=""></button>
+    <button onclick={moveRight} id="move-right" style="opacity: {rightMoveActive ? "1":"0.2"}"><img src="/src/lib/assets/images/icons/arrow.png" alt=""></button>
+    <button onclick={moveLeft} id="move-left" style="opacity: {leftMoveActive ? "1":"0.2"}"><img style="transform: scaleX(-1);" src="/src/lib/assets/images/icons/arrow.png" alt=""></button>
 
     <div id="tree-buy-frame" style="display: {treeOwned ? "none":"block"};">
-        <p style="color: {canAfford ? "#EA4F36":"red"};"><img src="src/lib/assets/images/leaves/0.png" alt="">{treePrice}</p>
+        <p style="color: {canAfford ? "#EA4F36":"red"};"><img src="/src/lib/assets/images/leaves/0.png" alt="">{treePrice}</p>
         <button onclick={onPurchase}>PURCHASE</button>
     </div>
 

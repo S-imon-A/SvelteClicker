@@ -20,7 +20,7 @@
 </script>
 
 <div style="background: {nodesign ? "none":"rgba(22, 22, 22, 0.85)"}; backdrop-filter: {nodesign ? "none":"blur(6px)"}; border-color: {nodesign ? "transparent":"rgba(0, 0, 0, 0.9)"}">
-    <p bind:this={currencyText} style="color: {textColor}"><img src="{image}" alt="" style="margin-right: {margin}px">{currency}</p>
+    <p bind:this={currencyText} style="color: {textColor}"><img src="/{image}" alt="" style="margin-right: {margin}px">{currency}</p>
 </div>
 
 <style>

@@ -59,8 +59,8 @@
     </div>
 
     <div id="shop-categories">
-        <button onclick={() => {switchCategory(0)}} style="opacity: {currentCategory === 0 ? "1":"0.6"}"><img src="src/lib/assets/images/icons/shop.png" alt=""></button>
-        <button onclick={() => {switchCategory(1)}} style="opacity: {currentCategory === 1 ? "1":"0.6"}"><img src="src/lib/assets/images/leaves/0.png" alt=""></button>
+        <button onclick={() => {switchCategory(0)}} style="opacity: {currentCategory === 0 ? "1":"0.6"}"><img src="/src/lib/assets/images/icons/shop.png" alt=""></button>
+        <button onclick={() => {switchCategory(1)}} style="opacity: {currentCategory === 1 ? "1":"0.6"}"><img src="/src/lib/assets/images/leaves/0.png" alt=""></button>
     </div>
 </div>
 

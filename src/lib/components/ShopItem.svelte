@@ -57,7 +57,7 @@
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <div bind:this={shopItemElement} class="shop-item-holder" onpointerdown={(e) => {buyTrigger(e, itemObject)}}>
     <div class="shop-item" onpointerenter={onItemHover} onpointerleave={onItemUnhover} onpointermove={onItemPointerPositionChange}>
-        <img src="{image}" alt="">
+        <img src="/{image}" alt="">
         <div>
             <p style="color: {mega ? giga ? "red":"yellow":"white"}">{name}</p>
             <div>

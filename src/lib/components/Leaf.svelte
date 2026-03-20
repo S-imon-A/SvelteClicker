@@ -8,7 +8,7 @@
 </script>
 
 <img
-    src="{image}" 
+    src="/{image}" 
     alt=""
     style="left: {data.x}px; top: {data.y}px; rotate: {data.r}deg; scale: {data.s}; pointer-events: {data.clickable ? "auto":"none"}; filter: brightness({data.brightness})"
     onpointerenter={(e) => { onHover(e, data) }}

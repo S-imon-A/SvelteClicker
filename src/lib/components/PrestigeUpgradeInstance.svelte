@@ -57,7 +57,7 @@
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 <div onclick={onBuy} onpointerenter={onItemHover} onpointerleave={onItemUnhover} onpointermove={onItemPointerPositionChange} class="prestige-upgrade-instance" style="opacity: {prestigeUpgradeData.owned ? "1":"0.35"}">
-    <img src="{prestigeUpgradeData.unlocked ? prestigeUpgrade.image:"src/lib/assets/images/icons/lock.png"}"
+    <img src="/{prestigeUpgradeData.unlocked ? prestigeUpgrade.image:"src/lib/assets/images/icons/lock.png"}"
     style="width: {prestigeUpgradeData.unlocked ? "80":"60"}%"
     alt="">
 </div>
