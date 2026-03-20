@@ -1,0 +1,330 @@
+{
+    "prestige_keys": [
+        {
+            "key": "click",
+            "category_name": "Clicker"
+        },
+        {
+            "key": "leaf",
+            "category_name": "Leaves"
+        },
+        {
+            "key": "extra",
+            "category_name": "Perks"
+        }
+    ],
+    "prestige_upgrades": {
+        "click": [
+            [
+                {
+                    "name": "Click boost I.",
+                    "cost": 2,
+                    "image": "src/lib/assets/images/icons/cursorI.png",
+                    "boost_text": "+100% click strength",
+                    "boost": 2,
+                    "type": "click_boost"
+                },
+                {
+                    "name": "Click boost II.",
+                    "cost": 5,
+                    "image": "src/lib/assets/images/icons/cursorII.png",
+                    "boost_text": "+300% click strength",
+                    "boost": 4,
+                    "type": "click_boost"
+                },
+                {
+                    "name": "Click boost III.",
+                    "cost": 25,
+                    "image": "src/lib/assets/images/icons/cursorIII.png",
+                    "boost_text": "+700% click strength",
+                    "boost": 8,
+                    "type": "click_boost"
+                },
+                {
+                    "name": "Click boost IV.",
+                    "cost": 75,
+                    "image": "src/lib/assets/images/icons/cursorIV.png",
+                    "boost_text": "+1.5K% click strength",
+                    "boost": 16,
+                    "type": "click_boost"
+                },
+                {
+                    "name": "Click boost V.",
+                    "cost": 225,
+                    "image": "src/lib/assets/images/icons/cursorV.png",
+                    "boost_text": "+5K% click strength",
+                    "boost": 51,
+                    "type": "click_boost"
+                },
+                {
+                    "name": "Click boost VI.",
+                    "cost": 750,
+                    "image": "src/lib/assets/images/icons/cursorVI.png",
+                    "boost_text": "+25K% click strength",
+                    "boost": 251,
+                    "type": "click_boost"
+                }
+            ],
+            [
+                {
+                    "name": "Passive click boost I.",
+                    "cost": 2,
+                    "image": "src/lib/assets/images/icons/passiveI.png",
+                    "boost_text": "+100% passive click strength",
+                    "boost": 2,
+                    "type": "passive_click_boost"
+                },
+                {
+                    "name": "Passive click boost II.",
+                    "cost": 5,
+                    "image": "src/lib/assets/images/icons/passiveII.png",
+                    "boost_text": "+300% passive click strength",
+                    "boost": 4,
+                    "type": "passive_click_boost"
+                },
+                {
+                    "name": "Passive click boost III.",
+                    "cost": 25,
+                    "image": "src/lib/assets/images/icons/passiveIII.png",
+                    "boost_text": "+700% passive click strength",
+                    "boost": 8,
+                    "type": "passive_click_boost"
+                },
+                {
+                    "name": "Passive click boost IV.",
+                    "cost": 75,
+                    "image": "src/lib/assets/images/icons/passiveIV.png",
+                    "boost_text": "+1.5K% passive click strength",
+                    "boost": 16,
+                    "type": "passive_click_boost"
+                },
+                {
+                    "name": "Passive click boost V.",
+                    "cost": 225,
+                    "image": "src/lib/assets/images/icons/passiveV.png",
+                    "boost_text": "+5K% passive click strength",
+                    "boost": 51,
+                    "type": "passive_click_boost"
+                },
+                {
+                    "name": "Passive click boost VI.",
+                    "cost": 750,
+                    "image": "src/lib/assets/images/icons/passiveVI.png",
+                    "boost_text": "+25K% passive click strength",
+                    "boost": 251,
+                    "type": "passive_click_boost"
+                },
+                {
+                    "name": "Passive click boost VII.",
+                    "cost": 2000,
+                    "image": "src/lib/assets/images/icons/passiveVII.png",
+                    "boost_text": "+150K% passive click strength",
+                    "boost": 1501,
+                    "type": "passive_click_boost"
+                }
+            ],
+            [
+                {
+                    "name": "Faster passive clicking I.",
+                    "cost": 5,
+                    "image": "src/lib/assets/images/icons/timerI.png",
+                    "boost_text": "2x faster passive clicking",
+                    "boost": 2,
+                    "type": "passive_click_timer"
+                },
+                {
+                    "name": "Faster passive clicking II.",
+                    "cost": 30,
+                    "image": "src/lib/assets/images/icons/timerII.png",
+                    "boost_text": "5x faster passive clicking",
+                    "boost": 5,
+                    "type": "passive_click_timer"
+                },
+                {
+                    "name": "Faster passive clicking III.",
+                    "cost": 200,
+                    "image": "src/lib/assets/images/icons/timerIII.png",
+                    "boost_text": "15x faster passive clicking",
+                    "boost": 15,
+                    "type": "passive_click_timer"
+                }
+            ]
+        ],
+        "leaf": [
+            [
+                {
+                    "name": "Leaf cost I.",
+                    "cost": 2,
+                    "image": "src/lib/assets/images/icons/leafI.png",
+                    "boost_text": "+100% leaf cost",
+                    "boost": 2,
+                    "type": "leaf_cost"
+                },
+                {
+                    "name": "Leaf cost II.",
+                    "cost": 10,
+                    "image": "src/lib/assets/images/icons/leafII.png",
+                    "boost_text": "+300% leaf cost",
+                    "boost": 4,
+                    "type": "leaf_cost"
+                },
+                {
+                    "name": "Leaf cost III.",
+                    "cost": 50,
+                    "image": "src/lib/assets/images/icons/leafIII.png",
+                    "boost_text": "+700% leaf cost",
+                    "boost": 8,
+                    "type": "leaf_cost"
+                },
+                {
+                    "name": "Leaf cost IV.",
+                    "cost": 250,
+                    "image": "src/lib/assets/images/icons/leafIV.png",
+                    "boost_text": "+2K% leaf cost",
+                    "boost": 21,
+                    "type": "leaf_cost"
+                },
+                {
+                    "name": "Leaf cost V.",
+                    "cost": 900,
+                    "image": "src/lib/assets/images/icons/leafV.png",
+                    "boost_text": "+10K% leaf cost",
+                    "boost": 101,
+                    "type": "leaf_cost"
+                }
+            ],
+            [
+                {
+                    "name": "Leaf size I.",
+                    "cost": 100,
+                    "image": "src/lib/assets/images/icons/sizeI.png",
+                    "boost_text": "x1.5 leaf size",
+                    "boost": 1.5,
+                    "type": "leaf_size"
+                },
+                {
+                    "name": "Leaf size II.",
+                    "cost": 500,
+                    "image": "src/lib/assets/images/icons/sizeII.png",
+                    "boost_text": "x2 leaf size",
+                    "boost": 2,
+                    "type": "leaf_size"
+                }
+            ],
+            [
+                {
+                    "name": "Leaf amount I.",
+                    "cost": 400,
+                    "image": "src/lib/assets/images/icons/moreI.png",
+                    "boost_text": "+1 extra leaf per tree",
+                    "boost": 1,
+                    "type": "leaf_amount"
+                },
+                {
+                    "name": "Leaf amount II.",
+                    "cost": 1000,
+                    "image": "src/lib/assets/images/icons/moreII.png",
+                    "boost_text": "+2 extra leaf per tree",
+                    "boost": 2,
+                    "type": "leaf_amount"
+                }
+            ]
+        ],
+        "extra": [
+            [
+                {
+                    "name": "XP I.",
+                    "cost": 2,
+                    "image": "src/lib/assets/images/icons/xpI.png",
+                    "boost_text": "+100% XP",
+                    "boost": 2,
+                    "type": "xp_boost"
+                },
+                {
+                    "name": "XP II.",
+                    "cost": 15,
+                    "image": "src/lib/assets/images/icons/xpII.png",
+                    "boost_text": "+300% XP",
+                    "boost": 4,
+                    "type": "xp_boost"
+                },
+                {
+                    "name": "XP III.",
+                    "cost": 60,
+                    "image": "src/lib/assets/images/icons/xpIII.png",
+                    "boost_text": "+700% XP",
+                    "boost": 8,
+                    "type": "xp_boost"
+                },
+                {
+                    "name": "XP IV.",
+                    "cost": 200,
+                    "image": "src/lib/assets/images/icons/xpIV.png",
+                    "boost_text": "+1.5K% XP",
+                    "boost": 16,
+                    "type": "xp_boost"
+                },
+                {
+                    "name": "XP V.",
+                    "cost": 800,
+                    "image": "src/lib/assets/images/icons/xpV.png",
+                    "boost_text": "+5K% XP",
+                    "boost": 51,
+                    "type": "xp_boost"
+                }
+            ],
+            [
+                {
+                    "name": "Critical chance I.",
+                    "cost": 50,
+                    "image": "src/lib/assets/images/icons/luckI.png",
+                    "boost_text": "+15% starter critical chance",
+                    "boost": 15,
+                    "type": "crit_chance"
+                },
+                {
+                    "name": "Critical chance II.",
+                    "cost": 300,
+                    "image": "src/lib/assets/images/icons/luckII.png",
+                    "boost_text": "+40% starter critical chance",
+                    "boost": 40,
+                    "type": "crit_chance"
+                }
+            ],
+            [
+                {
+                    "name": "Critical power I.",
+                    "cost": 4,
+                    "image": "src/lib/assets/images/icons/powerI.png",
+                    "boost_text": "+100% critical hit power",
+                    "boost": 2,
+                    "type": "crit_power"
+                },
+                {
+                    "name": "Critical power II.",
+                    "cost": 20,
+                    "image": "src/lib/assets/images/icons/powerII.png",
+                    "boost_text": "+300% critical hit power",
+                    "boost": 4,
+                    "type": "crit_power"
+                },
+                {
+                    "name": "Critical power III.",
+                    "cost": 100,
+                    "image": "src/lib/assets/images/icons/powerIII.png",
+                    "boost_text": "+1K% critical hit power",
+                    "boost": 11,
+                    "type": "crit_power"
+                },
+                {
+                    "name": "Critical power IV.",
+                    "cost": 500,
+                    "image": "src/lib/assets/images/icons/powerIV.png",
+                    "boost_text": "+5K% critical hit power",
+                    "boost": 51,
+                    "type": "crit_power"
+                }
+            ]
+        ]
+    }
+}

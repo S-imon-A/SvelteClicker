@@ -1,0 +1,67 @@
+{
+    "collectibles": [
+        {
+            "name": "Clover",
+            "desc": "A lucky clover said to bring fortune to anyone who finds it.",
+            "boost_text": "+10% critical chance",
+            "boost": 10,
+            "type": "crit_chance"
+        },
+        {
+            "name": "Apple",
+            "desc": "A fresh apple fallen from the tree. Simple, but nourishing.",
+            "boost_text": "+100 click strength",
+            "boost": 100,
+            "type": "click_strength"
+        },
+        {
+            "name": "Branch",
+            "desc": "A sturdy fallen branch. Nature’s leftover building material.",
+            "boost_text": "+100 extra xp",
+            "boost": 100,
+            "type": "extra_xp"
+        },
+        {
+            "name": "Sapphire",
+            "desc": "A deep blue gem that glimmers like the night sky.",
+            "boost_text": "+400% passive click strength",
+            "boost": 5,
+            "type": "passive_click_boost"
+        },
+        {
+            "name": "Emerald",
+            "desc": "A vibrant green gem filled with the spirit of the forest.",
+            "boost_text": "+400% click strength",
+            "boost": 5,
+            "type": "click_boost"
+        },
+        {
+            "name": "Diamond",
+            "desc": "A flawless crystal, the hardest treasure of them all.",
+            "boost_text": "+1K% critical power",
+            "boost": 11,
+            "type": "crit_power"
+        },
+        {
+            "name": "Ruby",
+            "desc": "A fiery red gem that glows like a tiny ember.",
+            "boost_text": "x2 passive click speed",
+            "boost": 2,
+            "type": "passive_click_speed"
+        },
+        {
+            "name": "Amethyst",
+            "desc": "A calming violet crystal said to hold ancient energy.",
+            "boost_text": "+800% XP",
+            "boost": 9,
+            "type": "xp_boost"
+        },
+        {
+            "name": "Topaz",
+            "desc": "A golden gem that sparkles like sunlight through leaves.",
+            "boost_text": "x2 item drop chance",
+            "boost": 2,
+            "type": "drop_chance"
+        }
+    ]
+}

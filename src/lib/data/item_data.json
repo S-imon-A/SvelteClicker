@@ -1,0 +1,84 @@
+{
+    "items": [
+        {
+            "name": "Acorn",
+            "image": "src/lib/assets/images/items/acorn2.png",
+            "size": 2,
+            "chance": 1000000,
+            "type": "prestige",
+            "popup_color": "#CB8252"
+        },
+        {
+            "name": "Clover",
+            "image": "src/lib/assets/images/items/clover2.png",
+            "size": 1.5,
+            "chance": 100000,
+            "type": "collectible",
+            "popup_color": "#4CAF50"
+        },
+        {
+            "name": "Apple",
+            "image": "src/lib/assets/images/items/apple2.png",
+            "size": 1.5,
+            "chance": 100000,
+            "type": "collectible",
+            "popup_color": "#E25B64"
+        },
+        {
+            "name": "Branch",
+            "image": "src/lib/assets/images/items/branch.png",
+            "size": 1.5,
+            "chance": 100000,
+            "type": "collectible",
+            "popup_color": "#A87E6B"
+        },
+        {
+            "name": "Sapphire",
+            "image": "src/lib/assets/images/items/sapphire.png",
+            "size": 1.5,
+            "chance": 50000,
+            "type": "collectible",
+            "popup_color": "#0050C0"
+        },
+        {
+            "name": "Emerald",
+            "image": "src/lib/assets/images/items/emerald.png",
+            "size": 1.5,
+            "chance": 80000,
+            "type": "collectible",
+            "popup_color": "#92E200"
+        },
+        {
+            "name": "Diamond",
+            "image": "src/lib/assets/images/items/diamond.png",
+            "size": 1.5,
+            "chance": 50000,
+            "type": "collectible",
+            "popup_color": "#96FFF6"
+        },
+        {
+            "name": "Ruby",
+            "image": "src/lib/assets/images/items/ruby.png",
+            "size": 1.5,
+            "chance": 50000,
+            "type": "collectible",
+            "popup_color": "#CE0045"
+        },
+        {
+            "name": "Amethyst",
+            "image": "src/lib/assets/images/items/amethyst.png",
+            "size": 1.5,
+            "chance": 60000,
+            "type": "collectible",
+            "popup_color": "#CB99FF"
+        },
+        {
+            "name": "Topaz",
+            "image": "src/lib/assets/images/items/topaz.png",
+            "size": 1.5,
+            "chance": 20000,
+            "type": "collectible",
+            "popup_color": "#FFBE40"
+        }
+    ]
+}

@@ -1,0 +1,284 @@
+{
+    "achievements": [
+        {
+            "name": "Tree tapper",
+            "desc": "Destroy 1K trees",
+            "req_type": "tree_destroy",
+            "req_amount": 1000,
+            "image": "ach_tree.png",
+            "boost_type": "click_strength",
+            "boost_amount": 25,
+            "boost_text": "+25 click power" 
+        },
+        {
+            "name": "Tree eater",
+            "desc": "Destroy 10K trees",
+            "req_type": "tree_destroy",
+            "req_amount": 10000,
+            "image": "ach_tree2.png",
+            "boost_type": "click_strength",
+            "boost_amount": 75,
+            "boost_text": "+75 click power" 
+        },
+        {
+            "name": "Tree destroyer",
+            "desc": "Destroy 100K trees",
+            "req_type": "tree_destroy",
+            "req_amount": 100000,
+            "image": "ach_tree3.png",
+            "boost_type": "click_strength",
+            "boost_amount": 225,
+            "boost_text": "+225 click power" 
+        },
+        {
+            "name": "Tree champion",
+            "desc": "Destroy 1M trees",
+            "req_type": "tree_destroy",
+            "req_amount": 1000000,
+            "image": "ach_tree4.png",
+            "boost_type": "click_strength",
+            "boost_amount": 500,
+            "boost_text": "+500 click power" 
+        },
+        {
+            "name": "Leaf collector",
+            "desc": "Collect 1K leaves",
+            "req_type": "leaf_collect",
+            "req_amount": 1000,
+            "image": "ach_leaf.png",
+            "boost_type": "passive_click_strength",
+            "boost_amount": 5,
+            "boost_text": "+5 passive click power" 
+        },
+        {
+            "name": "Leaf lerner",
+            "desc": "Collect 10K leaves",
+            "req_type": "leaf_collect",
+            "req_amount": 10000,
+            "image": "ach_leaf2.png",
+            "boost_type": "passive_click_strength",
+            "boost_amount": 15,
+            "boost_text": "+15 passive click power" 
+        },
+        {
+            "name": "Leaf pro",
+            "desc": "Collect 100K leaves",
+            "req_type": "leaf_collect",
+            "req_amount": 100000,
+            "image": "ach_leaf3.png",
+            "boost_type": "passive_click_strength",
+            "boost_amount": 50,
+            "boost_text": "+50 passive click power" 
+        },
+        {
+            "name": "Leaf champion",
+            "desc": "Collect 1M leaves",
+            "req_type": "leaf_collect",
+            "req_amount": 1000000,
+            "image": "ach_leaf4.png",
+            "boost_type": "passive_click_strength",
+            "boost_amount": 100,
+            "boost_text": "+100 passive click power" 
+        },
+        {
+            "name": "Leaf man",
+            "desc": "Collect 10M leaves",
+            "req_type": "leaf_collect",
+            "req_amount": 10000000,
+            "image": "ach_leaf5.png",
+            "boost_type": "passive_click_strength",
+            "boost_amount": 300,
+            "boost_text": "+300 passive click power" 
+        },
+        {
+            "name": "Strong hands",
+            "desc": "Tap the tree 100 times",
+            "req_type": "tree_click",
+            "req_amount": 100,
+            "image": "ach_click.png",
+            "boost_type": "active_click_multi",
+            "boost_amount": 2,
+            "boost_text": "+100% click multi" 
+        },
+        {
+            "name": "Skilled tapper",
+            "desc": "Tap the tree 1K times",
+            "req_type": "tree_click",
+            "req_amount": 1000,
+            "image": "ach_click2.png",
+            "boost_type": "active_click_multi",
+            "boost_amount": 4,
+            "boost_text": "+300% click multi" 
+        },
+        {
+            "name": "Born to tap",
+            "desc": "Tap the tree 10K times",
+            "req_type": "tree_click",
+            "req_amount": 10000,
+            "image": "ach_click3.png",
+            "boost_type": "active_click_multi",
+            "boost_amount": 16,
+            "boost_text": "+1.5K% click multi" 
+        },
+        {
+            "name": "Tapping like a robot",
+            "desc": "Tap the tree 100K times",
+            "req_type": "tree_click",
+            "req_amount": 100000,
+            "image": "ach_click4.png",
+            "boost_type": "active_click_multi",
+            "boost_amount": 51,
+            "boost_text": "+5K% click multi" 
+        },
+        {
+            "name": "Prestige beginner",
+            "desc": "Prestige 2 times",
+            "req_type": "prestige",
+            "req_amount": 2,
+            "image": "ach_prestige.png",
+            "boost_type": "leaf_cost",
+            "boost_amount": 10,
+            "boost_text": "+10 leaf cost" 
+        },
+        {
+            "name": "Prestige junior",
+            "desc": "Prestige 5 times",
+            "req_type": "prestige",
+            "req_amount": 5,
+            "image": "ach_prestige2.png",
+            "boost_type": "leaf_cost",
+            "boost_amount": 25,
+            "boost_text": "+25 leaf cost" 
+        },
+        {
+            "name": "Prestige pro",
+            "desc": "Prestige 20 times",
+            "req_type": "prestige",
+            "req_amount": 20,
+            "image": "ach_prestige3.png",
+            "boost_type": "leaf_cost",
+            "boost_amount": 75,
+            "boost_text": "+75 leaf cost" 
+        },
+        {
+            "name": "Prestige giga man",
+            "desc": "Prestige 100 times",
+            "req_type": "prestige",
+            "req_amount": 100,
+            "image": "ach_prestige4.png",
+            "boost_type": "leaf_cost",
+            "boost_amount": 225,
+            "boost_text": "+225 leaf cost" 
+        },
+        {
+            "name": "Item collector",
+            "desc": "Collect all collectible items",
+            "req_type": "collectibles",
+            "req_amount": 9,
+            "image": "ach_gems.png",
+            "boost_type": "passive_click_multi",
+            "boost_amount": 11,
+            "boost_text": "+1K% passive click multi" 
+        },
+        {
+            "name": "Giga collector",
+            "desc": "Collect 100 items",
+            "req_type": "items",
+            "req_amount": 100,
+            "image": "ach_gems2.png",
+            "boost_type": "passive_click_multi",
+            "boost_amount": 21,
+            "boost_text": "+2K% passive click multi" 
+        },
+        {
+            "name": "Enchanted treasurer",
+            "desc": "Collect 1K items",
+            "req_type": "items",
+            "req_amount": 1000,
+            "image": "ach_gems3.png",
+            "boost_type": "passive_click_multi",
+            "boost_amount": 51,
+            "boost_text": "+5K% passive click multi" 
+        },
+        {
+            "name": "Squirrel",
+            "desc": "Collect 100 acorns",
+            "req_type": "acorns",
+            "req_amount": 100,
+            "image": "ach_squirrel.png",
+            "boost_type": "active_click_multi",
+            "boost_amount": 11,
+            "boost_text": "+1K% click multi" 
+        },
+        {
+            "name": "Levler",
+            "desc": "Gain 100 levels",
+            "req_type": "level",
+            "req_amount": 100,
+            "image": "ach_level.png",
+            "boost_type": "xp_multi",
+            "boost_amount": 11,
+            "boost_text": "+1K% xp multi" 
+        },
+        {
+            "name": "XP merchant",
+            "desc": "Gain 1K levels",
+            "req_type": "level",
+            "req_amount": 1000,
+            "image": "ach_level2.png",
+            "boost_type": "xp_multi",
+            "boost_amount": 51,
+            "boost_text": "+5K% xp multi" 
+        },
+        {
+            "name": "Level infinity",
+            "desc": "Reach level 37",
+            "req_type": "max_level",
+            "req_amount": 37,
+            "image": "ach_toplevel.png",
+            "boost_type": "xp_multi",
+            "boost_amount": 501,
+            "boost_text": "+50K% xp multi" 
+        },
+        {
+            "name": "Visitor",
+            "desc": "Play 30m total",
+            "req_type": "time",
+            "req_amount": 1800,
+            "image": "ach_time.png",
+            "boost_type": "crit_multi",
+            "boost_amount": 11,
+            "boost_text": "+1K% critical multi" 
+        },
+        {
+            "name": "Addicted player",
+            "desc": "Play 4h total",
+            "req_type": "time",
+            "req_amount": 14400,
+            "image": "ach_time2.png",
+            "boost_type": "crit_multi",
+            "boost_amount": 31,
+            "boost_text": "+3K% critical multi" 
+        },
+        {
+            "name": "Nolife player",
+            "desc": "Play 1d total",
+            "req_type": "time",
+            "req_amount": 86400,
+            "image": "ach_time3.png",
+            "boost_type": "crit_multi",
+            "boost_amount": 81,
+            "boost_text": "+8K% critical multi" 
+        },
+        {
+            "name": "Leaf gauntlet",
+            "desc": "Complete all other achievements",
+            "req_type": "leaf",
+            "req_amount": 27,
+            "image": "ach_all.png",
+            "boost_type": "xp_multi",
+            "boost_amount": 1360,
+            "boost_text": "+135K% xp multi" 
+        }
+    ]
+}
