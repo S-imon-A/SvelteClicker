@@ -52,7 +52,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        background-image: url("images/background/background.png");
+        background-image: url("/images/background/background.png");
         background-size: 100% 100%;
         width: 100%;
         height: 100%;
