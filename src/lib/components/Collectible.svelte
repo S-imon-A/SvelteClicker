@@ -43,7 +43,7 @@
 {#if infoVisible && collectibleObject.owned}
     <div class="hover-info" style="left: {infoX}px; top: {infoY}px">
         <div class="hover-info-header">
-            <img src="{collectibleObject.collectibleData.image}" alt="">
+            <img src="/{collectibleObject.collectibleData.image}" alt="">
             <h1>{collectibleObject.collectibleData.name}</h1>
             <p class="info-ownership">{collectibleObject.collectibleData.dropChance.toString()}% drop chance</p>
         </div>
